@@ -35,7 +35,7 @@ export default function LoginScreen({ navigation }) {
       Alert.alert('Sukses', 'Logged in successfully!');
       console.log('User:', data.user);
       // navigation.navigate('Home');
-       navigation.navigate('Home'); 
+
     }
   };
 
